@@ -1,0 +1,24 @@
+.profile-photo{
+  width: 2vh !important;
+}
+.body_data{
+  display:flex;
+}
+.body_content{
+  margin: 14vh;
+}
+.body_content h1{
+  font-weight: bolder;
+  font-style: italic;
+
+}
+.body_content p{
+  font-size: 3vh;
+  margin: 6vh 0 6vh 0;
+}
+
+button{
+  position: relative;
+  left: 33vh;
+  top: -6.2vh;
+}

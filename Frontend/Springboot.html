@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Courses</title>
+  
+  <link rel="stylesheet" href="styles/Springboot.css"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iCT9pYPvCpHrP+4uqoJ81BXQv4++EVwAElwqpVmzstOvzUHBwj2NARDUC" crossorigin="anonymous">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Microservices Learning</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="course.html">Courses</a>
+          </li>
+        </ul>
+      </div>
+      <div class="profile_photo">
+        <img class="user-profile" src="assests/user.png"/>
+      </div>
+    </div>
+  </nav>
+  <div class="main">
+    <h1 class="heading1">
+      Programming with SpringBoot
+    </h1>
+    <div class="image1">
+        <img src="data:image/png;base64,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" alt="Embedded Image" class="image1">  
+      </div>
+        <h1 class="heading2">
+            Description
+          </h1>
+    <div class="desr1">
+      This course is designed to teach you how to develop applications using the Spring Boot framework. Spring Boot is a popular open-source framework for Java developers that simplifies the creation of production-ready applications. This course typically covers the following subtopics including Introduction to Spring, Spring Boot features, Spring MVC, Data Access with JPA, Spring Security, Testing and Deployment, and Building Spring Boot Applications.
+    </div>
+   
+      
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
